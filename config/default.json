@@ -1,0 +1,7 @@
+{
+    "ssl" : {
+        "enable" : false,
+        "key" : "",
+        "cert" : ""
+    }
+}

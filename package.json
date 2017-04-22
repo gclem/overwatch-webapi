@@ -1,0 +1,28 @@
+{
+  "name": "overwatch-webapi",
+  "version": "1.0.0",
+  "description": "Lighweight Web API Hosting based on  overwatch-js npm package functionnalities",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "overwatch"
+  ],
+  "author": "gclem",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "overwatch-js": "^1.5.0",
+    "winston": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gclem/overwatch-webapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gclem/overwatch-webapi/issues",
+    "email": "giovanni.clement@gmail.com"
+  }
+}
