@@ -42,6 +42,21 @@ If you want to enable SSL, go to config/default.json and set `ssl.enabled` to `t
         "cert" : ""
     }
 ```
+#### Launch
+
+You can set the port, setting the ENV variable `PORT`.
+
+With `pm2`
+
+```javascript
+  pm2 start app.js
+```
+
+With `npm`
+
+```javascript
+  npm start app.js
+```
 
 # Functionalities
 * Search for a player 

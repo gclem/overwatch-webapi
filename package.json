@@ -4,7 +4,8 @@
   "description": "Lighweight Web API Hosting based on  overwatch-js npm package functionnalities",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js"
   },
   "keywords": [
     "overwatch"
