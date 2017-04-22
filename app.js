@@ -97,6 +97,7 @@ logger.stream = {
 }; 
 
 /* Configuration */
+app.set('trust proxy', '127.0.0.1');
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
