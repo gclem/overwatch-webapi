@@ -69,14 +69,14 @@ With `npm`
 * `username` : battletag
 
 #### Overall statistics : 
-`GET https://owjs.ovh/search/:platform/:region/:tag`
+`GET https://owjs.ovh/overall/:platform/:region/:tag`
 
 * `:platform` : pc|xbl|psn
 * `:region` eu|us etc..
 * `:tag` battletag
 
 #### All statistics with heroes details : 
-`GET https://owjs.ovh/search/:platform/:region/:tag`
+`GET https://owjs.ovh/all/:platform/:region/:tag`
 
 * `:platform` : pc|xbl|psn
 * `:region` eu|us etc..
