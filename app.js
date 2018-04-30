@@ -65,7 +65,9 @@ var overall = (req, res) => {
 
             res.json(data);
         })
-        .catch((err) => handle(err, res));
+        .catch((err) => 
+            handle(err, res)
+        );
 }
 
 /* Logger */
