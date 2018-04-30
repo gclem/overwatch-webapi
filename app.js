@@ -122,7 +122,8 @@ app.get('/', function (req, res) {
         description : package.description, 
         author : package.author,
         repo : package.repository.url,
-        report : package.bugs.email
+        report : package.bugs.email,
+        help : "For all commands available, PLEASE CHECK THE README FROM GITHUB REPOSITORY"
     });
 });
 
