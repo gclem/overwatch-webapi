@@ -1,6 +1,8 @@
 # overwatch-webapi
 Lighweight Web API self-Host based on overwatch-js npm package functionnalities.
 
+# This repository is DEPRECATED 
+
 # Dependencies
 `Overwatch-js` : NodeJS Overwatch library : Retrieve informations about heroes/players from Overwatch Official Website [Overwatch-js NPM](https://www.npmjs.com/package/overwatch-js)
 [Overwatch-js Github](https://github.com/gclem/overwatch-js)
